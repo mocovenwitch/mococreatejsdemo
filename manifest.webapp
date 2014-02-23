@@ -1,0 +1,33 @@
+{
+  "name": "MocoCreaJSDEMO",
+  "description": "CreaJS DEMO",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "developer": {
+    "name": "The Gaia Team",
+    "url": "https://github.com/andreasgal/gaia"
+  },
+  "permissions": {
+    "mobileconnection":{},
+    "webapps-manage":{},
+    "systemXHR":{},
+    "settings":{ "access": "readwrite" },
+    "open-remote-window":{},
+    "storage":{},
+    "geolocation": {},
+    "alarms": {},
+    "power":{},
+    "contacts":{ "access": "readonly" }
+  },
+  "locales": {
+    "en-US": {
+      "name": "MocoCreaJSDEMO",
+      "description": "Gaia Homescreen"
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "30": "/style/icons/Crystalskull.png"
+  },
+  "orientation": "default"
+}
